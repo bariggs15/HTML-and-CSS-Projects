@@ -4,13 +4,14 @@ body {
     margin: 0%  /* This ensures our site displays all the way to the edge of the browser screen */
 }
 
+
 /* Heading 1 elements */
 h1 {
     text-transform: uppercase; /* Capitalizing all h1 headings */
-    font-family: "Trebuchet MS", Optima; /* Sets the font family of all h1 headings */
+    font-family: verdana, Optima; /* Sets the font family of all h1 headings */
     text-align: center; /* Centering all h1 elements */
     margin-top: 3%; /* Adds a small margin above h1 elements */
-    color: #1a1a1a; 
+    color: red; 
 }
 
 /* Heading 1 element hover effect */
@@ -28,9 +29,9 @@ h1:hover {
 /* Paragraph elements */
 p {
     font-family: Perpetua, Rockwell Extra Bold;
-    text-align: justify; /* Justify text within paragraph elements */
+    text-align: center; /* Justify text within paragraph elements */
     letter-spacing: 1px; /* This expands the text slightly */
-    font-size: 20px;
+    font-size: 19px;
     padding-left: 20px; /* Adds padding to the left of the paragraph element */
     padding-right: 20px; /* Adds padding to the right of the paragraph element */
 }
@@ -200,6 +201,7 @@ footer {
     float: left;
     width: 50%; /* This ensures the column takes up half of the page width */
     padding: 10px;
+    text-align: center;
     padding-top: 3%; /* This ensures there is space between the top of the column and our headings */
     height: 400px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
     background-color: #f2f2f2; /* Sets the background color of the columns with class Column_1 */
@@ -247,6 +249,7 @@ input[type=text] {
     margin-bottom: 16px; /* Adds a margin to the bottom of the text box */
     resize: vertical; /* This allows the user to resize the text boxes vertically */
     font-family: Perpetua, Rockwell Extra Bold;
+    text-align: center;
 }
 
 /* Hover effects for input boxes */
