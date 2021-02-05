@@ -61,13 +61,13 @@ body.fade-out {
 @keyframes movenavText {
   from {top: -100vw;}
   to {top: 0vw;}
-}
+  }
 
 
 /* This animation effect causes the overlay video text to move up from the bottom of the page upon page load */
 @keyframes movevideoText {
   from {top: -100vw;}
-  to {top: 0px;}
+  to {top: -50vw;}
 }
 
 /* Navbar hover effect */
@@ -114,10 +114,13 @@ body.fade-out {
 	padding-top: .1vh; /* This adds padding around the text so that the background goes slightly beyond the text */
 	padding-bottom: 1vh;
 	margin-top: 0%;
-    position: relative;
-    -webkit-animation: moveNav 2s; /* Safari 4.0 - 8.0 */
+   -webkit-animation: moveNav 2s; /* Safari 4.0 - 8.0 */
     animation: movevideoText 2s;
-}
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
 
 /* Slideshow Styling */
 #Slideshow_Background {
@@ -247,8 +250,13 @@ body.fade-out {
 }
 
 input {
-    width: 100%;
+    width: 75%; 
+    height: 10%;
     text-align: center;
+    padding-left: 50%;
+    padding-right: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .submit {
