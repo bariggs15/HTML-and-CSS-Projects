@@ -10,7 +10,7 @@ Below are code snippets and descriptions of code that I worked on with full file
 * [One Page Website](#One-Page-Website)
 
 ### Space Station
-This website was about trying out various CSS and HTML (with some Javascript techniques as well) to make a website about the solar stystem and "Space Travel". This project was interactive with setting up local references/images to call on, navbars, containers, etc. 
+This website was about trying out various CSS and HTML (with some Javascript techniques as well) to make a website about the solar stystem and "Space Travel". This project was interactive with setting up local references/images to call on, navbars, containers, etc. Below is a sample of the HTML that was involved in the project: 
 
         <!DOCTYPE html>
         <html lang="en">
@@ -66,7 +66,7 @@ This website was about trying out various CSS and HTML (with some Javascript tec
 
 
 ### One Page Website
-This is fun, small project that I got to work on to display some of my various new programming skills combined with my history of being a physical therapist. This is an incomplete website, but has several CSS and HTML features. Below is some of the CSS that was involved and will continue to be edited over time.
+This is fun, small project that I got to work on to display some of my various new programming skills combined with my history of being a physical therapist. This is an incomplete website, but has several CSS and HTML features. Below is some of the CSS that was involved and will continue to be edited over time:
 
 
     body {
